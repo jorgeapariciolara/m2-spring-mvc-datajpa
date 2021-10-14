@@ -7,8 +7,10 @@
 <body>
 
 <ul>
-    <li th:each="smartphone : ${telefonos}">
+    <li th:each="smartphone : ${smartphones}">
         <span th:text="${smartphone.model}"></span>
+        <span th:text="${smartphone.ram}"></span>
+        <span th:text="${smartphone.price}"></span>
     </li>
 </ul>
 

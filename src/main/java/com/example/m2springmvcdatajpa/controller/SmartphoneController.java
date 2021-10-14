@@ -1,5 +1,6 @@
-package com.example.m2springmvcdatajpa;
+package com.example.m2springmvcdatajpa.controller;
 
+import com.example.m2springmvcdatajpa.entities.Smartphone;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -29,7 +30,7 @@ public class SmartphoneController {
         smartphones.add(smartphone2);
         smartphones.add(smartphone3);
 
-        model.addAttribute("telefonos",smartphones);
+        model.addAttribute("smartphones", smartphones);
 
         return "smartphone-list";
     }

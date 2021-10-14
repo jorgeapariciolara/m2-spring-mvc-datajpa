@@ -1,4 +1,4 @@
-package com.example.m2springmvcdatajpa;
+package com.example.m2springmvcdatajpa.entities;
 
 public class Smartphone {
 
